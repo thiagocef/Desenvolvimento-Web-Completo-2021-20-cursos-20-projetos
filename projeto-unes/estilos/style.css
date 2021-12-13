@@ -7,10 +7,8 @@
     font-family: sans-serif;
 }
 
-/*header {
-    background-color: lime;
-    
-    
+/*html {
+    background-color: red;
 }*/
 
 header img {
@@ -36,8 +34,8 @@ header nav {
 
 ul li {
     display: inline-block;
-    margin-left: 15px;
-    padding: 10px;
+    margin-left: 0px;
+    padding: 10px 20px;
     
     
 }
@@ -53,8 +51,6 @@ li a {
 li a:hover {
     color: white;
 }
-
-
 
 main {
     /*background-color: yellow;*/
@@ -91,8 +87,42 @@ form p {
     margin-top: 10px;
     text-indent: 0px;
 }
+
+
 footer {
     /*background-color: rgb(114, 36, 84);*/
     text-align: center;
     margin-top: 40px;
+}
+
+/*===========================================*/
+/*================ MEDIA QUERY ==============*/
+/*===========================================*/
+
+@media (max-width: 868px) {
+    header img {
+        width: 440px;
+        /*background-color: lightcoral;*/
+    }
+
+    header nav {
+        float: none;
+        text-align: center;
+        border-top: 2px solid silver;
+        border-bottom: 2px solid silver;
+    }
+
+    body {
+        width: 90%;
+    }
+
+    body p {
+        text-align: justify;
+        
+    }
+
+    footer p {
+        text-align: center;
+    }
+
 }
