@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --cor01: #848f52;
+    --cor02: #0f4158;
+}
+
+html {
+    background-image: url('../imagens/fundo.png');
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+body {
+    /*background-color: red;*/
+    width: 80vw;
+    margin: auto;
+}
+/*-----------------------------------------*/
+header {
+    background-color: rgb(219, 238, 175);
+}
+header img {
+    width: 100%;
+}
+header ul {
+    padding: 30px 0px 30px 15px;
+}
+header ul li {
+    display: inline-block;
+    padding-right: 15px;
+
+    color: var(--cor02);
+    font-weight: bolder;
+}
+
+/*-----------------------------------------*/
+
+main {
+    background-color: snow;
+}
+main h1 {
+    padding: 20px 0px 20px 15px;
+    color: var(--cor01);
+}
+main p {
+    line-height: 25px;
+    padding: 0px 15px 30px 15px;
+}
+/*------------------------------------------*/
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
