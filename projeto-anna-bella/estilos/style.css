@@ -58,6 +58,21 @@ main p {
     line-height: 25px;
     padding: 0px 15px 30px 15px;
 }
+.img {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    width: 70%;
+    min-width: 360px;
+    
+}
+
+/*------------------------------------------*/
+
+address {
+    padding: 0px 15px 30px 15px;
+    font-style: normal;
+}
+
 /*------------------------------------------*/
 
 footer {
