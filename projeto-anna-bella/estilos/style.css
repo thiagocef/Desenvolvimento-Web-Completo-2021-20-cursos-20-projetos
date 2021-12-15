@@ -35,16 +35,21 @@ body {
 /*-----------------------------------------*/
 
 header {
-    background-color: var(--cor03);
+    background-color: yellow;
+    height: 100%;
 }
-header img {
+
+img.capa {
     width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*------------------------------------------*/
 
 nav {
-   /* background-color: red;*/
+   background-color: red;
+   
     
 }
 nav ul {
@@ -54,6 +59,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 15px;
+    
 
     color: var(--cor02);
     font-weight: bolder;
@@ -62,15 +68,15 @@ nav a {
     text-decoration: none;
     color: var(--cor02);
 }
-nav ul li:hover {
+nav li:hover {
     background-color: var(--cor02);
     color: var(--cor03);
 }
-nav ul li a:hover {
+/*nav a:hover {
     background-color: var(--cor02);
     color: var(--cor03);
     
-}
+}*/
 
 /*-----------------------------------------*/
 
