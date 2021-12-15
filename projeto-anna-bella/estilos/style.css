@@ -40,6 +40,10 @@ header ul li {
     color: var(--cor02);
     font-weight: bolder;
 }
+header a {
+    text-decoration: none;
+    color: var(--cor02);
+}
 
 /*-----------------------------------------*/
 
