@@ -48,9 +48,7 @@ img.capa {
 
 /*------------------------------------------*/
 
-nav {
-   /*background-color: red;*/
-}
+
 
 nav ul {
     /*background-color: silver;*/
@@ -119,11 +117,15 @@ footer {
 /*==========================================*/
 
 @media (max-width: 722px){
+    body {
+        width: 88vw;
+    }
     nav {
         /*background-color: yellow;*/
         color: var(--cor02);
-        text-align: center;
+        text-align: left;
     }
+
     nav li {
         
         font-size: 13px;
@@ -132,6 +134,9 @@ footer {
 }
 
 @media (max-width: 584px){
+    body {
+        width: 95vw;
+    }
     nav {
         /*background-color: green;*/
         color: var(--cor02);
@@ -139,7 +144,7 @@ footer {
     
     }
     nav li {
-        width: 92%;
+        width: 92.6%;
         font-size: 14px;
         margin: 0px;
 
