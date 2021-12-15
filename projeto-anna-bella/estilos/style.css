@@ -6,10 +6,16 @@
     font-family: sans-serif;
 }
 
+/*-----------------------------------------*/
+
 :root {
     --cor01: #848f52;
     --cor02: #0f4158;
+    --cor03: #dbeeaf;
+    --cor04: snow;
 }
+
+/*-----------------------------------------*/
 
 html {
     background-image: url('../imagens/fundo.png');
@@ -18,29 +24,33 @@ html {
     background-attachment: fixed;
 }
 
+/*-----------------------------------------*/
+
 body {
-    /*background-color: red;*/
+    background-color: var(--cor03);
     width: 80vw;
     margin: auto;
 }
+
 /*-----------------------------------------*/
+
 header {
-    background-color: rgb(219, 238, 175);
+    background-color: var(--cor03);
 }
 header img {
     width: 100%;
 }
-header ul {
+header nav {
     padding: 30px 0px 30px 15px;
 }
-header ul li {
+nav ul li {
     display: inline-block;
     padding-right: 15px;
 
     color: var(--cor02);
     font-weight: bolder;
 }
-header a {
+nav a {
     text-decoration: none;
     color: var(--cor02);
 }
@@ -48,7 +58,7 @@ header a {
 /*-----------------------------------------*/
 
 main {
-    background-color: snow;
+    background-color: var(--cor04);
 }
 main h1 {
     padding: 20px 0px 20px 15px;
@@ -62,7 +72,8 @@ main p {
     padding-left: 15px;
     padding-bottom: 20px;
     width: 70%;
-    min-width: 360px;
+    min-width: 370px;
+    
     
 }
 
@@ -80,5 +91,10 @@ footer {
     padding-bottom: 30px;
     text-align: center;
     font-weight: bolder;
-    
+}
+
+/*==========================================*/
+
+@media (max-width: 756){
+
 }
