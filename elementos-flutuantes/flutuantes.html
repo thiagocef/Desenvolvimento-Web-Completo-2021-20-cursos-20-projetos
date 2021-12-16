@@ -4,9 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+        main {
+            background-color: black;
+            width: 920px;
+            border: 3px solid red;
+        }    
+
+        .noticias {
+            background-color: silver;
+            padding: 5px;
+            width: 280px;
+            margin: 8px;
+            float: left;
+        }
+        .limpar {
+            clear: both;
+        }
+
+        .galeria{
+            background-color: white;
+            width: 265px;
+            padding: 5px;
+            margin: 15px;
+            float: left;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+    
     <title>Elementos Flutuantes - prática</title>
 </head>
 <body>
+    <main>
+        
+        <section class="noticias">
+            <h2>Cidades</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore consequuntur. Eius, odit numquam explicabo, velit voluptates ut expedita quia magni laborum dolor qui quam ipsam placeat distinctio nihil dolorum.</p>
+            <a href="#">Veja mais</a>
+        </section>
+
+        <section class="noticias">
+            <h2>Policial</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore consequuntur. Eius, odit numquam explicabo, velit voluptates ut expedita quia magni laborum dolor qui quam ipsam placeat distinctio nihil dolorum.</p>
+            <a href="#">Veja mais</a>
+        </section>
+
+        <section class="noticias">
+            <h2>Esportes</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore consequuntur. Eius, odit numquam explicabo, velit voluptates ut expedita quia magni laborum dolor qui quam ipsam placeat distinctio nihil dolorum.</p>
+            <a href="#">Veja mais</a>
+        </section>
+
+        <div class="limpar"></div>
+        
+        <section>
+                <div  class="galeria">
+                    <img src="imagens/imagem1.png" alt="soldado">
+                    <p>Soldado</p>
+                </div>
+
+                <div  class="galeria">
+                    <img src="imagens/imagem2.png" alt="frio">
+                    <p>Frio</p>
+                </div>
+
+                <div  class="galeria">
+                    <img src="imagens/imagem3.png" alt="jogando">
+                    <p>Jogando</p>
+                </div>
+
+                <div  class="galeria">
+                    <img src="imagens/imagem4.png" alt="crianças">
+                    <p>Crianças</p>
+                </div>
+
+                <div  class="galeria">
+                    <img src="imagens/imagem5.png" alt="celular">
+                    <p>Celular</p>
+                </div>    
+                
+                <div class="limpar"></div>
+        </section>
+        
+    </main>
     
 </body>
 </html>
