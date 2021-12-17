@@ -11,12 +11,13 @@
     --cor02: silver;
     --cor03: rgb(82, 82, 82);
 }
-/*----------------------------------------*/
+/*-------------------------------------------*/
 
 header {
     background-color: var(--cor01);
     text-align: center;
-
+    
+    margin-bottom: 15px;
     padding: 40px 0px 20px 0px;
 }
 header h1 {
@@ -49,5 +50,57 @@ header a:hover {
 /*--------------------------------------------------*/
 
 body {
-    background-color: brown;
+    background-color: red;
+    position: relative;
 }
+
+/*--------------------------------------------------*/
+
+main {
+    background-color: lightblue;
+    width: 50vw;
+    margin: auto;
+    
+}
+.posicao {
+    position: absolute;
+    left: 200px;
+    
+    
+}
+
+/*--------------------------------------------------*/
+aside {
+    background-color: limegreen;
+    color: black;
+}
+aside h3 {
+    background-color: var(--cor02);
+    padding: 4px;
+}
+
+.postagens {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    
+    position: absolute;
+    top: -10px;
+    right: -280px;
+}
+.categorias {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+
+    position: absolute;
+    top: 215px;
+    right: -280px;
+}
+
+footer {
+    background-color: green;
+    position: relative;
+    bottom: 0px;
+
+/*--------------------------------------------------*/
