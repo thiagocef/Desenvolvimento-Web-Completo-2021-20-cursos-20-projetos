@@ -8,13 +8,14 @@
 :root {
     --cor00: white;
     --cor01: #f8be00;
-    --cor02: silver;
+    --cor02: rgb(226, 225, 225);
     --cor03: rgb(82, 82, 82);
 }
-/*-------------------------------------------*/
+/*==================================================*/
 
 header {
     background-color: var(--cor01);
+    box-shadow: 1px 1px 6px #0000002d;
     text-align: center;
     
     margin-bottom: 15px;
@@ -35,11 +36,14 @@ header li {
 
     margin: 0px 15px;
 }
+a {
+    text-decoration: none;
+}
 
 header a {
     padding: 10px;
     color: var(--cor00);
-    text-decoration: none;
+    
 }
 header a:hover {
     background-color: var(--cor00);
@@ -47,60 +51,122 @@ header a:hover {
 }
 
 
-/*--------------------------------------------------*/
+/*==================================================*/
 
 body {
-    background-color: red;
-    position: relative;
+    background-color: var(--cor02);
+    
+}
+p {
+    margin: 5px 0px;
+    line-height: 25px;
 }
 
-/*--------------------------------------------------*/
+/*==================================================*/
 
+div.principal {
+    /*border: 2px solid blue;*/
+    width: 940px;
+    margin: 0 auto;
+    
+    
+}
 main {
-    background-color: lightblue;
-    width: 50vw;
-    margin: auto;
+    /*background-color: rgb(90, 137, 153);*/
+    width: 660px;
+    float: left;
     
+}    
+
+/*==================================================*/
+
+hr {
+    margin-top: 4px;
 }
-.posicao {
-    position: absolute;
-    left: 200px;
-    
-    
+section {
+    background-color: var(--cor00);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 6px #0000002d;
+}
+section h2 {
+    color: var(--cor01);
+    margin-bottom: 4px;
+}
+section h5 {
+    margin-bottom: 10px;
+}
+section img {
+    width: 620px;
+}
+section a:link, section a:visited {
+    color: var(--cor01);
 }
 
-/*--------------------------------------------------*/
+section a:hover {
+    color: #ffff28;
+}
+
+/*==================================================*/
+
+.barra-lateral {
+    /*border: 2px solid yellow;*/
+    background-color: var(--cor02);
+    width: 250px;
+    float: right;
+}
 aside {
-    background-color: limegreen;
+    /*border: 2px solid red;*/
+    background-color: white;
+
+    padding: 10px;
+    margin-bottom: 25px;
     color: black;
+
+    box-shadow: 1px 1px 6px #0000002d;
 }
 aside h3 {
-    background-color: var(--cor02);
-    padding: 4px;
-}
-
-.postagens {
-    width: 250px;
-    height: 200px;
-    margin: 10px;
+    background-color: var(--cor01);
+    color: var(--cor00);
+    padding: 6px;
     
-    position: absolute;
-    top: -10px;
-    right: -280px;
 }
-.categorias {
-    width: 250px;
-    height: 200px;
-    margin: 10px;
+aside p {
+    font-size: 15px;
+    line-height: 17px;
+}
+aside > a {
+    color: var(--cor01);
+    font-size: 13px;
+}
+aside > a:hover {
+    color: #ffff28;
+}
+aside li {
+    list-style: none;
+    color: var(--cor01);
+    font-weight: bolder;
 
-    position: absolute;
-    top: 215px;
-    right: -280px;
+    margin-top: 5px;
 }
+aside li a:visited {
+    color: var(--cor01);
+}
+aside li a:hover {
+    color: #ffff28;
+}
+
+
+/*==================================================*/
 
 footer {
-    background-color: green;
-    position: relative;
-    bottom: 0px;
+    background-color: var(--cor01);
+    color: var(--cor00);
+    font-weight: bolder;
+    text-align: center;
 
+    padding: 15px;
+
+    clear: both;
+}
 /*--------------------------------------------------*/
