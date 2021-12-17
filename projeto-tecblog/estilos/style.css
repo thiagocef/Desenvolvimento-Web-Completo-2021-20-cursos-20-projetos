@@ -7,19 +7,25 @@
 }
 :root {
     --cor00: white;
-    --cor01: #f8be00;
-    --cor02: rgb(226, 225, 225);
-    --cor03: rgb(82, 82, 82);
+    --cor01: #F25430;
+    --cor02: #D93E30;
+    --cor03: #A62D2D;
+    --cor04: #BF7969;
 }
 /*==================================================*/
 
 header {
     background-color: var(--cor01);
-    box-shadow: 1px 1px 6px #0000002d;
+    box-shadow: 1px 1px 6px #0000006b;
     text-align: center;
     
     margin-bottom: 15px;
     padding: 40px 0px 20px 0px;
+
+    width: 100vw;
+    position: fixed;
+    
+    
 }
 header h1 {
     font-size: 3em;
@@ -54,7 +60,7 @@ header a:hover {
 /*==================================================*/
 
 body {
-    background-color: var(--cor02);
+    background-color: var(--cor03);
     
 }
 p {
@@ -70,12 +76,13 @@ div.principal {
     margin: 0 auto;
     
     
+    
 }
 main {
     /*background-color: rgb(90, 137, 153);*/
     width: 660px;
     float: left;
-    
+    margin-top: 180px;
 }    
 
 /*==================================================*/
@@ -87,7 +94,7 @@ section {
     background-color: var(--cor00);
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 1px 1px 6px #0000002d;
+    box-shadow: 1px 1px 6px #0000006b;
 }
 section h2 {
     color: var(--cor01);
@@ -104,26 +111,27 @@ section a:link, section a:visited {
 }
 
 section a:hover {
-    color: #ffff28;
+    color: var(--cor03);
 }
 
 /*==================================================*/
 
 .barra-lateral {
     /*border: 2px solid yellow;*/
-    background-color: var(--cor02);
+   /* background-color: var(--cor00);*/
     width: 250px;
     float: right;
+    margin-top: 180px;
 }
 aside {
     /*border: 2px solid red;*/
-    background-color: white;
+    background-color: var(--cor00);
 
     padding: 10px;
     margin-bottom: 25px;
     color: black;
 
-    box-shadow: 1px 1px 6px #0000002d;
+    box-shadow: 1px 1px 6px #0000006b;
 }
 aside h3 {
     background-color: var(--cor01);
@@ -140,7 +148,7 @@ aside > a {
     font-size: 13px;
 }
 aside > a:hover {
-    color: #ffff28;
+    color: var(--cor03);
 }
 aside li {
     list-style: none;
@@ -153,7 +161,7 @@ aside li a:visited {
     color: var(--cor01);
 }
 aside li a:hover {
-    color: #ffff28;
+    color: var(--cor03);
 }
 
 
