@@ -6,7 +6,7 @@
     font-family: sans-serif;
 }
 body {
-    width: 720px;
+    width: 85%;
     margin: auto;
     background-color: rgb(228, 225, 225);
 }
@@ -20,22 +20,22 @@ header {
 
 main {
     border: 2px solid red;
-    width: 520px;
+    width: 74%;
     float: right;
 }
 .principal {
     background-color: white;
-    width: 320px;
+    width: 60%;
     float: left;
 }
 .secundario {
     background-color: rgb(247, 224, 224);
-    width: 180px;
+    width: 35%;
     float: right;
 }
 nav {
     border: 2px solid green;
-    width: 180px;
+    width: 22%;
     float: left;
     padding: 20px 0px;
     background-color: honeydew;
