@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    padding-top: 20px;
+}
+
+ul {
+    
+    width: 100vw;
+    background-color: #07beaf;
+    float: left;
+    
+}
+
+ul li {
+    float: left;
+    padding: 3px 20px;
+    list-style: none;
+    border-left: 1.5px solid #56cec4;
+    border-right: 1px solid #1aafa3;
+}
+a.no-border {
+    border-right: 1px solid #07beaf;
+}
+h1 {
+    clear: both;
+}
+
+ul a {
+    
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
