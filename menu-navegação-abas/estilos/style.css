@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav {
+    padding-top: 30px;
+    float: left;
+}
+ul {
+    list-style: none;
+    width: 800px;
+    float: left;
+    margin-left: 290px;
+}
+
+ul li {
+    background-color: tomato;
+    border: 1px solid white;
+    border-radius: 12px 12px 0px 0px ;
+
+    color: white;
+    float: left;
+    font-size: 16px;
+
+    padding: 0px 48px;
+    line-height: 2em;
+}
+h1 {
+    margin: auto;
+    clear: both;
+}
+li:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 27, 27);
+}
