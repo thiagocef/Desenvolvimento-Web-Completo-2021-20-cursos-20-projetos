@@ -48,6 +48,7 @@ input {
     background-repeat: no-repeat;
     background-position: 10px;
     background-size: 14px;
+    border-radius: 3px;
 }
 
 #senha {
@@ -55,19 +56,20 @@ input {
     background-repeat: no-repeat;
     background-position: 10px;
     background-size: 14px;
+    border-radius: 3px;
 }
 
 #botao {
     width: 80%;
     padding-right: 40px;
     font-size: 1.3em;
-    color: #5819438a;
-
+    color: #3a0d2b8a;
+    border-radius: 3px;
     background-color: #ac587b;
     cursor: pointer;
 }
 
 #botao:hover {
-    color: #ceacc4;
+    color: #d6bace;
     background-color: #ac587b77;
 }
