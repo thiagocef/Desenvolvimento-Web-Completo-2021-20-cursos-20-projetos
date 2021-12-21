@@ -12,8 +12,15 @@
 }
 
 body {
+    
     background-color: rgb(219, 132, 132);
+    width: 100%;
+    
 }
+
+/*-------------------------------------------------*/
+/*--------------------CABEÇALHO--------------------*/
+/*-------------------------------------------------*/
 
 header {
     background-color: #f7f7b1;
@@ -22,18 +29,20 @@ header {
     background-size: contain;
 
     height: 280px;
-    width: 100vw;
+    width: 100%;
 }
-
 header > nav {
     width: 666px;
     padding-top: 20px;
     margin: auto;
 }
+
 img#logo {
     width: 200px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
+
 img#mapa {
     width: 200px;
     margin-top: -190px;
@@ -49,7 +58,6 @@ header ul {
     position: absolute; /*posicionamento da lista*/
     z-index: 1; /*sobreposição - na frente*/
 }
-
 header li {
     display: inline;
     
@@ -58,8 +66,34 @@ header li {
     color: var(--cor00);
 }
 
+/*-------------------------------------------------*/
+/*---------------CONTEÚDO PRINCIPAL----------------*/
+/*-------------------------------------------------*/
+
 main {
+    border: 2px solid red;
     background-color: rgb(157, 157, 241);
+
+    width: 650px;
+    min-width: 600px;
+    height: 100vh;
+    margin: auto;
+    
+}
+
+section {
+    border: 2px solid green;
+    width: 270px;
+    margin: 30px;
+}
+div.coluna-dir {
+    position: relative;
+    left: 320px;
+    top: -613px;
+}
+
+img {
+    width: 98%;
 }
 footer {
     background-color: rgb(173, 81, 81);
