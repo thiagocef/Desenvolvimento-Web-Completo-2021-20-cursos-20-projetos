@@ -14,7 +14,8 @@
 body {
     
     background-color: rgb(219, 132, 132);
-    width: 100%;
+    width: 100vw;
+    margin: auto;
     
 }
 
@@ -70,31 +71,41 @@ header li {
 /*---------------CONTEÚDO PRINCIPAL----------------*/
 /*-------------------------------------------------*/
 
-main {
-    border: 2px solid red;
-    background-color: rgb(157, 157, 241);
-
-    width: 650px;
-    min-width: 600px;
-    height: 100vh;
+.conteudo {
+    background-color: #58587e;
+    width: 750px;
     margin: auto;
     
 }
 
-section {
-    border: 2px solid green;
-    width: 270px;
-    margin: 30px;
-}
-div.coluna-dir {
-    position: relative;
-    left: 320px;
-    top: -613px;
+.lateral {
+    background-color: #ebeb91;
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
 }
 
-img {
-    width: 98%;
+main {
+   background-color: #6eca6e; 
+   width: 270px;
+   float: left;
+   margin: 0 0 20px 195px;
 }
+
+
+.secundario {
+    background-color: #f05454;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+
+
 footer {
-    background-color: rgb(173, 81, 81);
+    background-color: #294c71;
+    color: #fff;
+    clear: both;
+    text-align: center;
+    line-height: 4em;
 }
