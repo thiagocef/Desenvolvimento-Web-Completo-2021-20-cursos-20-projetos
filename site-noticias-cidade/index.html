@@ -10,42 +10,48 @@
     <title>Site de Noticias</title>
 
 </head>
-<body>
+<body class="home"> 
 
     <header>
         
-        <nav> <!--menu proncipal - topo horizontal-->
+        <nav> <!--menu principal - topo horizontal-->
 
             <img id="logo" src="imagens/logo.png" alt="logo do site">
             <img id="mapa" src="imagens/detalhe-topo.png" alt="mini mapa">
 
             <ul>
-                <li>Home</li>
-                <li>Brasil</li>
-                <li>Internacional</li>
-                <li>Economia</li>
-                <li>Saúde</li>
-                <li>Ciência</li>
-                <li>Fotos</li>
+                <a id="home" href="#"><li>Home</li></a>
+
+                <a id="brasil" href="#"><li>Brasil</li></a>
+
+                <a id="internacional" href="#"><li>Internacional</li></a>
+
+                <a id="economia" href="#"><li>Economia</li></a>
+
+                <a id="saude" href="#"><li>Saúde</li></a>
+
+                <a id="ciencias" href="#"><li>Ciência</li></a>
+
+                <a id="foto" href="#"><li>Fotos</li></a>
             </ul>
             
         </nav>
 
     </header>
 
-        <div class="conteudo">
-            <main>
-                principal
-            </main>
+    <div class="conteudo"> <!--inicio do conteudo-->
+        <main> <!--conteudo principal-->
+            principal
+        </main>
 
-            <article class="secundario">
-                secundário
-            </article>
+        <section class="secundario"> <!--conteudo secundario-->
+            secundário
+        </section>
 
-            <article class="lateral">
-                lateral
-            </article>
-        </div>
+        <section class="lateral"> <!--barra lateral-->
+            lateral
+        </section>
+    </div> <!--fim do conteudo-->
 
     <footer> <!--rodapé-->
         &copy; Copyright 2000-2018 Notícias Cidade

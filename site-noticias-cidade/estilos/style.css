@@ -9,6 +9,7 @@
 :root {
     --cor00: white;
     --cor01: rgb(184, 3, 3);
+    --cor02: #69001d;
 }
 
 body {
@@ -50,7 +51,7 @@ img#mapa {
     margin-left: 230px;
     position: relative; /*posicionamento do mapa*/
     top: 65px; /*posicionamento do mapa*/
-    right: -165px; /*posicionamento do mapa*/
+    right: -115px; /*posicionamento do mapa*/
     z-index: 0; /*sobreposição - por trás*/
 }
 
@@ -61,10 +62,30 @@ header ul {
 }
 header li {
     display: inline;
-    
-    padding: 18px;
+    padding: 15px;
     line-height: 3em;
     color: var(--cor00);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header li:hover {
+    color: var(--cor02);
+}
+
+body.home a#home li,
+body.brasil a#brasil li,
+body.internacional a#internacional li,
+body.economia a#economia li,
+body.saude a#saude li,
+body.ciencias a#ciencias li,
+body.foto a#foto li { /*aba do menu fica marcada na página atual*/
+    
+    color: rgb(155, 1, 1);
+    background-color: #d61818;
+    cursor: text;
 }
 
 /*-------------------------------------------------*/
@@ -75,25 +96,38 @@ header li {
     background-color: #58587e;
     width: 750px;
     margin: auto;
-    
 }
 
-.lateral {
+/*
+o conteudo tem width: 750px
+
+a soma do width de: 
+main(270px)+.secundario(270px)+.lateral(180px)
+
+é igual a 720px
+
+o que sobra 30px pra usar de margens
+*/   
+
+.lateral { /*barra lateral*/
     background-color: #ebeb91;
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
 }
 
-main {
+main { /*conteudo principal*/
    background-color: #6eca6e; 
    width: 270px;
    float: left;
    margin: 0 0 20px 195px;
 }
+/*
+as margens foram utilizadas para
+mover e definir a posição de cada caixa
+*/
 
-
-.secundario {
+.secundario { /*conteudo secundario*/
     background-color: #f05454;
     width: 270px;
     float: left;
