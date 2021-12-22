@@ -9,12 +9,12 @@
 :root {
     --cor00: white;
     --cor01: rgb(184, 3, 3);
-    --cor02: #69001d;
+    --cor02: #9b0101;
 }
 
 body {
     
-    background-color: rgb(219, 132, 132);
+    background-color: #294C71;
     width: 100vw;
     margin: auto;
     
@@ -88,7 +88,7 @@ body.saude a#saude li,
 body.ciencias a#ciencias li,
 body.foto a#foto li { /*aba do menu fica marcada na página atual*/
     
-    color: rgb(155, 1, 1);
+    color: #9b0101;
     background-color: #d61818;
     cursor: text;
 }
@@ -125,6 +125,10 @@ main { /*conteudo principal com página de tres colunas*/
    float: left;
    margin: 0 0 20px 195px;
 }
+main img, .secundario img {
+    width: 100%;
+}
+
 #duas-colunas main { /*conteudo principal com página de duas colunas*/ 
     width: 555px;
 }
@@ -149,9 +153,17 @@ mover e definir a posição de cada caixa
     padding: 5px;
 }
 h2 {
-    font-size: 1.1em;
+    font-size: 1.4em;
     background-color: #294c71;
     color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+h3 {
+    font-size: 1em;
+    background-color: var(--cor01);
+    color: var(--cor00);
+    margin-bottom: 10px;
     padding: 5px;
 }
 .caixa-conteudo {
@@ -176,26 +188,31 @@ nav.caixa-conteudo a:hover {
 label {
     display: block;
     cursor: pointer;
-    margin: 5px 0px;
+    margin: 5px 5px;
 }
 input {
     font-size: 0.9em;
     padding: 5px;
-    width: 155px;
+    width: 146px;
+    margin: 5px;
     background-color: #fff;
 }
 input.submit {
     width: 80px;
     color: #fff;
-    background-color: #b10333;
-    border: 2px solid #870529;
+    background-color: var(--cor02);
+    border: none;
+    border-radius: 3px;
     padding-left: 5px;
-    margin-top: 5px;
+    margin: 5px;
+    cursor: pointer;
 }
+
 footer {
     background-color: #294c71;
     color: #fff;
     clear: both;
     text-align: center;
     line-height: 4em;
+    border-top: 2px solid #2d537c;
 }
