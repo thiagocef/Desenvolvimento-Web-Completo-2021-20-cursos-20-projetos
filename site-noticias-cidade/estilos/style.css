@@ -110,18 +110,27 @@ o que sobra 30px pra usar de margens
 */   
 
 .lateral { /*barra lateral*/
-    background-color: #ebeb91;
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
 }
 
-main { /*conteudo principal*/
+main { /*conteudo principal com página de tres colunas*/ 
    background-color: #6eca6e; 
    width: 270px;
    float: left;
    margin: 0 0 20px 195px;
 }
+#duas-colunas main { /*conteudo principal com página de duas colunas*/ 
+    background-color: #6eca6e; 
+    width: 555px;
+}
+#uma-coluna main { /*conteudo principal com página de uma coluna*/ 
+    background-color: #6eca6e; 
+    width: 750px;
+    margin: 0 0 20px 0px;
+ }
+
 /*
 as margens foram utilizadas para
 mover e definir a posição de cada caixa
@@ -133,8 +142,22 @@ mover e definir a posição de cada caixa
     float: left;
     margin: 0 0 20px 15px;
 }
-
-
+.caixa {
+    background: #f3f3f3 url('../imagens/fundo-caixa.png');
+    margin: 10px 0px;
+    padding: 5px;
+}
+h2 {
+    font-size: 1.1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo {
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
 
 footer {
     background-color: #294c71;
