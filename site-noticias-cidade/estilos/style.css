@@ -86,7 +86,7 @@ body.internacional a#internacional li,
 body.economia a#economia li,
 body.saude a#saude li,
 body.ciencias a#ciencias li,
-body.foto a#foto li { /*aba do menu fica marcada na página atual*/
+body.fotos a#fotos li { /*aba do menu fica marcada na página atual*/
     
     color: #9b0101;
     background-color: #d61818;
@@ -186,6 +186,10 @@ nav.caixa-conteudo a:hover {
     padding-left: 20px;
     color: #a1a1a1;
 }
+
+form {
+    background-color: white;
+}
 label {
     display: block;
     cursor: pointer;
@@ -242,6 +246,7 @@ footer {
     color: #fff;
     clear: both;
     text-align: center;
-    line-height: 4em;
+    line-height: 2em;
     border-top: 2px solid #2d537c;
+    padding: 20px 0;
 }
