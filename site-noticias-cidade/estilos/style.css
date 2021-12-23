@@ -15,7 +15,7 @@
 body {
     
     background-color: #294C71;
-    width: 100vw;
+    width: 99w;
     margin: auto;
     
 }
@@ -152,6 +152,9 @@ mover e definir a posição de cada caixa
     margin: 10px 0px;
     padding: 5px;
 }
+.lista-noticias a {
+    color: black;
+}
 h2 {
     font-size: 1.4em;
     background-color: #294c71;
@@ -240,7 +243,10 @@ input.submit {
 .lista-noticias p {
     font-size: 0.7em;
 }
-
+.brasil main h2 a {
+    text-decoration: none;
+    color: white;
+}
 footer {
     background-color: #294c71;
     color: #fff;
