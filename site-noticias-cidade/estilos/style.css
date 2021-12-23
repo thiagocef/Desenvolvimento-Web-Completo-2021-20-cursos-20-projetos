@@ -170,6 +170,7 @@ h3 {
     background-color: #fff;
     margin-top: 5px;
     padding: 5px;
+    padding-bottom: 0px;
 }
 nav.caixa-conteudo a {
     font-size: 0.9em;
@@ -190,6 +191,7 @@ label {
     cursor: pointer;
     margin: 5px 5px;
 }
+
 input {
     font-size: 0.9em;
     padding: 5px;
@@ -206,6 +208,33 @@ input.submit {
     padding-left: 5px;
     margin: 5px;
     cursor: pointer;
+}
+.lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    
+}
+.lista-noticias img {
+    width: 80px;
+    float: left;
+    margin: 5px;
+}
+.lista-noticias a {
+    text-decoration: none;
+}
+.lista-noticias li:hover {
+    background-color: #eee;
+}
+.lista-noticias h4 {
+    font-size: 0.7em;
+    padding-top: 5px;
+    margin-bottom: 3px;
+    color: #3e7ab9;
+    text-transform: uppercase;
+}
+.lista-noticias p {
+    font-size: 0.7em;
 }
 
 footer {
